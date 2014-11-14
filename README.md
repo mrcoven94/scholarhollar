@@ -1,8 +1,8 @@
 Scholar Hollar
 ================
+A platform to centrelzie scholarship listings, via social media. 
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
+[![forthebadge](http://forthebadge.com/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
 
 
 Ruby on Rails
