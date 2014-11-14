@@ -1,0 +1,41 @@
+<h1>Scholarships Junkies</h1>
+  <div class="container">
+    <div class="about">
+  <h1>
+    
+  </h1>
+  
+  <h2>The best scholarships, added by awesome individuals  and organizations</h2>
+  
+  <div class="eligibility">
+    <h3>Eligibility</h3>
+    
+    <ul>
+      <li>The scholarship must provide support to students in the us</li>
+      <li>The scholarship must be awarded in a timely manner</li>
+      <li>Scholarships > $500 only</li>
+    </ul>
+  </div>
+  
+  <p>100% free and no bullshit guaranteed!</p>
+    
+  <p>Last updated about 21 hours ago</p>
+
+</div>
+
+
+
+
+
+    <div class="scholarships">
+    <% @scholarships.each do |scholarship| %>
+      <div class="scholarship">
+        <h2><%= link_to scholarship.title, scholarship.url %></h2>
+        <p><%= scholarship.company %>
+      </div>
+    <% end %>
+    <p><%= link_to "Add a scholarship", new_scholarship_path %></p>
+    </div>
+
+
+<p><%= paginate @scholarships %></p>

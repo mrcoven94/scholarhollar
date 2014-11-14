@@ -1,0 +1,10 @@
+<div class="container">
+<div class="col-md-6">
+    <%= simple_form_for @scholarship do |form| %>
+      <%= form.input :title, label: "Scholarship title" %>
+      <%= form.input :company, label: "Your company" %>
+      <%= form.input :url, label: "Link to Scholarship" %>
+      <%= form.button :submit %>
+    <% end %>
+</div>
+</div>
